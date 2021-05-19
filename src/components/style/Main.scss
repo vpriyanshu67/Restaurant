@@ -1,0 +1,28 @@
+
+.box {
+      
+      height :550px;
+      margin-left: -10px;
+      background: url("https://mcdn.wallpapersafari.com/medium/20/62/1nEm6s.jpg") top center;
+      display: flex;
+      justify-content: space-around;
+      background-size:cover;
+      background-position:center;
+      position: relative;
+      padding: 0;
+     
+    .box1{
+        margin-top: 20px;
+        flex-grow: 100%;
+        width:30%
+    }
+    
+    .box2{
+        margin-left: 20px;
+        margin-top: 20px;
+        flex-grow: 100%;
+        width:100%;
+       
+    }
+}
+

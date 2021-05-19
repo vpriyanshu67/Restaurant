@@ -1,0 +1,32 @@
+.box {
+  height: 550px;
+  margin-left: -10px;
+  background: url("https://mcdn.wallpapersafari.com/medium/20/62/1nEm6s.jpg") top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0;
+}
+
+.box .box1 {
+  margin-top: 20px;
+  -webkit-box-flex: 100%;
+      -ms-flex-positive: 100%;
+          flex-grow: 100%;
+  width: 30%;
+}
+
+.box .box2 {
+  margin-left: 20px;
+  margin-top: 20px;
+  -webkit-box-flex: 100%;
+      -ms-flex-positive: 100%;
+          flex-grow: 100%;
+  width: 100%;
+}
+/*# sourceMappingURL=Main.css.map */

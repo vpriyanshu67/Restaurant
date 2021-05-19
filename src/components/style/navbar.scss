@@ -1,0 +1,24 @@
+.header{
+    height: 70px;
+ 
+    .container{
+        position: absolute;
+        right:4%;  
+        top : 2%;
+        height: 80px;
+        width:80px
+    }
+    .total{
+        position: absolute;
+        text-align: center;
+        right:5%;  
+        top : 2%;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+  
+
+        
+    }
+
+}

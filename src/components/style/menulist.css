@@ -1,0 +1,22 @@
+.column {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.column .card-body {
+  text-align: left;
+  border: 2px solid #504e4e;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  font-display: #cda45e;
+  font-family: "Poppins", sans-serif;
+}
+
+.column::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=menulist.css.map */
